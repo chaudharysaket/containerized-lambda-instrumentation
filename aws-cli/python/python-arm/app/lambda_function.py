@@ -7,7 +7,7 @@ print("Lambda Handler starting up for Python ARM container")
 
 def handler(event, context):
     # At this point, we're handling an invocation. Cold start is over; this code runs for each invocation.
-
+    
     # This is an example of a custom event. `FROM MyPythonEvent SELECT *` in New Relic will find this event.
     agent.record_custom_event("MyPythonEvent", {
         "zip": "zap"

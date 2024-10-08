@@ -16,7 +16,7 @@ Resources:
     Properties:
       PackageType: Image
       Architectures:
-        - x86_64
+        - arm64
     Metadata:
       DockerTag: nodejs20.x-v1
       DockerContext: ./hello-world

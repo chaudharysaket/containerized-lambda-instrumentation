@@ -1,4 +1,4 @@
-FROM public.ecr.aws/newrelic-lambda-layers-for-docker/newrelic-lambda-layers-nodejs:20 AS layer
+FROM public.ecr.aws/q6k3q1g1/newrelic-lambda-layers-nodejs:20-arm64 AS layer
 
 FROM public.ecr.aws/lambda/nodejs:20
 
